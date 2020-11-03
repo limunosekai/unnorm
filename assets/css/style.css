@@ -1,18 +1,67 @@
 html {
-  background: #f5f7f8;
+  background-image: url(../../images/bg.jpg);
+  background-size: cover;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
-  padding: 20px 0;
+  /* padding: 20px 0; */
 }
-
-
+/* header */
+#header {
+  
+}
+#header .avatar img {
+  display: block;
+  border-radius: 100%;
+  width: 12rem;
+} 
+#header .avatar {
+  margin: 4rem auto;
+  display: block;
+  width: 12rem;
+  padding: 0.5rem;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.075);
+  border: 1.7px solid rgba(255, 255, 255, 0.2);
+}
+#header h1 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+}
+#header h2 {
+  font-size: 0.75rem;
+  text-align: center;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.2);
+}
 /* typography */
-h1 {
+/* h1 {
   font-size: 20px;
   margin: 0;
   color: #333;
+} */
+#header .icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2rem;
+  
 }
-
+#header .icons li {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.075);
+  border-radius: 100%;
+  width: 2.3rem;
+  height: 2.3rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+#header .icons li a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
 .card span {
   font-size: 12px;
   font-weight: bold;

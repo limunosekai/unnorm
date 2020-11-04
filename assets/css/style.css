@@ -121,10 +121,14 @@ html {
 .thumb2 {
   padding-bottom: 170%;
   background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .thumb3 {
   padding-bottom: 170%;
   background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 /* typography */
 article h1 {
